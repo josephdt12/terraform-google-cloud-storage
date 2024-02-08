@@ -19,8 +19,8 @@ variable "project_id" {
   type        = string
 }
 
-variables "bucket_suffix" {
+variable "bucket_suffix" {
   description = "Suffix to add to the bucket name."
-  type = string
-  default = ""
+  type        = string
+  default     = ""
 }
