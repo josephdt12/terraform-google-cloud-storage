@@ -18,3 +18,9 @@ variable "project_id" {
   description = "The ID of the project in which to provision resources."
   type        = string
 }
+
+variables "bucket_suffix" {
+  description = "Suffix to add to the bucket name."
+  type = string
+  default = ""
+}
